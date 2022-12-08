@@ -1,9 +1,12 @@
 ### 기말 코딩 시험
--------
+----------------
 ## 문제1번
 
-구현결과 : ![image](https://user-images.githubusercontent.com/96435960/206423206-53b9a688-2291-4eb7-8128-cbe8198f3f1d.png)
-코드 : import cv2 as cv
+구현결과 :
+![image](https://user-images.githubusercontent.com/96435960/206423206-53b9a688-2291-4eb7-8128-cbe8198f3f1d.png)
+---------------
+코드 :
+import cv2 as cv
 
 def setLabel(image, str, contour):
     (text_width, text_height), baseline = cv.getTextSize(str, cv.FONT_HERSHEY_SIMPLEX, 0.7, 1)
