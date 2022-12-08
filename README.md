@@ -6,6 +6,7 @@
 ![image](https://user-images.githubusercontent.com/96435960/206423206-53b9a688-2291-4eb7-8128-cbe8198f3f1d.png)
 ---------------
 코드 :
+--------
 import cv2 as cv
 
 def setLabel(image, str, contour):
